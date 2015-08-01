@@ -1,0 +1,227 @@
+
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url('http://fonts.googleapis.com/css?family=Arvo:400,700');
+
+/*-------------------------------------
+| Core
+-------------------------------------*/
+/*body { 
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #fdead7; 
+	margin: 0px; 
+	font-family: 'Montserrat', sans-serif;
+}*/
+
+#container {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.inset {
+	background-color: #363636;
+}
+
+.bannermain {
+	background-image: url(../_img/bannermain.png);
+	max-width: 100%;
+	min-width: 25%;
+	height: 700px;
+	margin: auto;
+
+	
+}
+
+.bannermain .title > p {
+	/*top: 30%;
+	left: 25%;*/
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 100px;
+	float: left;
+	margin-left: 30%;
+	margin-top: 10%;
+	
+}
+
+.ContactSmall .title > p {
+	/*top: 30%;
+	left: 25%;*/
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 50px;
+	float: left;
+	margin-left: 43%;
+	margin-top: 4%;
+	
+}
+
+
+.contactinfo p {
+	/*top: 30%;
+	left: 25%;*/
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 25px;
+	float: left;
+	margin-left: 40%;
+	margin-top: 1%;
+	text-align: center;
+	
+}
+
+.address  {
+	font-family: 'Arvo', serif;
+	    font-weight: 700;
+	    color: #000;
+	    font-size: 25px;
+	    float: left;
+	    margin-left: 23.7%;
+	    margin-top: 1%;
+	    text-align: center;
+	    margin-bottom: 2%;
+	
+}
+
+
+.bannermain p {
+	
+/*	top: 48%;
+	left: 25%;*/
+	font-family: serif;
+	color: #fff;
+	font-size: 20px;
+	float: left;
+	margin-left: 33%;
+	/*margin-top: 10%;*/
+}
+
+.delivery {
+	font-family: serif;
+	font-size: 50px;
+	padding-top: 20px;
+
+}
+
+
+.deliverysub {
+	font-family: serif;
+	font-size: 20px;
+	/*padding-top: 20px;*/
+
+}
+
+.creditcard {
+	font-family: serif;
+	font-size: 50px;
+	padding-top: 0px;
+
+}
+
+
+.creditcardsub {
+	font-family: serif;
+	font-size: 20px;
+	/*padding-top: 20px;*/
+
+}
+
+/*#container-fluid .inset {
+	width: 100%;
+}*/
+/*-------------------------------------
+| Nav
+-------------------------------------*/
+
+nav a {
+	display: inline-block;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	padding-left: 30px;
+	margin-left: 20px;
+	margin-top: 15px;
+	color: #363636;
+}
+
+.inset nav {
+	outline: solid 1px red;
+
+	width: 100%;
+	max-width: 100%;
+	min-width: 25px;
+	margin: auto;
+	background-color: #fdead7;
+	height: 50px;
+}
+/*-------------------------------------
+| Second Section
+-------------------------------------*/
+#container-fluid {
+	background-image: url(../_img/watermark.png);
+	max-width: 100%;
+	min-width: 25%;
+	min-height: 300px;
+}
+div .secondsec {
+	max-width: 100%;
+	min-width: 25%;
+	min-height: 700px;
+	margin: auto;
+	background-image: url(../_img/watermark.png);
+	
+}
+
+div .secondsec img {
+	margin-top: 10%;
+}
+.col-lg-6 {
+	text-align: center;
+	margin-top: 5%;
+}
+.left .col-md-6 {
+	padding-left: 30px;
+}
+/*
+#container-fluid .inset {
+	outline: solid 1px red;
+
+	text-align: center;
+	padding-top: 100px;
+	width: 90%;
+	max-width: 1100px;
+	min-width: 320px;
+	margin: auto;
+	background-image: url(../_img/watermark.png);
+	height: 400px;
+}*/
+
+.creditcard {
+	padding-bottom: 10px;
+}
+#container-fluid {
+	width: 100%;
+	max-width: 1500px;
+	min-width: 320px;
+	height: 400px;
+	margin: auto;
+}
+
+img .delivery {
+	margin-left: 20px;
+}
+
+div .firstrow img {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+div .secondrow img {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
